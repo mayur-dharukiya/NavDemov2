@@ -3,7 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id("kotlin-parcelize")
 
-
 }
 
 android {
@@ -11,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.navdemov2"
-        minSdk 21
+        minSdk 26
         targetSdk 32
         versionCode 1
         versionName "1.0"
