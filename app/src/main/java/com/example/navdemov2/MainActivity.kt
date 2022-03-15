@@ -85,7 +85,7 @@ class MainActivity : ComponentActivity() {
 
                         //Post Screen
 
-                        composable(Screen.Post_Screen.route+"showPost",
+                        composable(Screen.Post_Screen.route+"/{showPost}",
                         arguments = listOf(
 
                             navArgument("showPost")
